@@ -1,0 +1,121 @@
+baseURL = "https://go.markhub.cn"
+
+languageCode = "zh-Hans"
+
+defaultContentLanguage = "zh"
+
+title = "fidiler"
+
+theme = "LeaveIt"
+
+# copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。'
+
+# googleAnalytics = "UA-98295641-1"
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+# hasCJKLanguage = true
+
+# # https://gohugo.io/news/0.60.0-relnotes/
+# [markup]
+#   [markup.goldmark]
+#     [markup.goldmark.renderer]
+#       unsafe = true
+
+# [params]
+#   background = "black"
+#   # backgroundImage = "/images/me/nick_background.jpg"
+#   linkColor = "seagreen"
+
+#   author = "Anti Entropy"
+#   description = ""
+#   avatar = "/images/me/Codeacademy-go-language-free-course-1200x675.png"
+#   motto = ""
+  
+#   email = "yuanchang.xu@outlook.com"
+#   # twitter = "g1eny0ung"
+#   # facebook = "g1eny0ung"
+#   # instagram = "g1enyy0ung"
+#   # linkedin = "钺杨g1eny0ung"
+#   github = "Soul-Mate"
+#   # stackoverflow = "5676489/g1eny0ung"
+#   # codepen = "g1eny0ung"
+
+#   siteStartYear = 2017
+
+#   favicon = "/favicon.ico"
+
+#   # dark mode
+#   darkLinkColor = "darkseagreen"
+#   darkNav = true
+#   dark404Button = true
+
+
+
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params]
+    since = 2017
+    author = "fidiler"                           # Author's name
+    avatar = "/images/me/avatar.jpeg"           # Author's avatar
+    subtitle = "我会更好，因为我没有停止"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+   
+    description = "" # site description
+    keywords = "" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+
+[params.social]
+    GitHub = "https://github.com/fidiler"
+    # Twitter = "xxoo"
+    Email   = "yuanchang.xu@outlook.com"
+    # Instagram = "xxoo"
+    Wechat = "/images/me/wechat.jpg"  # Wechat QRcode image
+    # Facebook = "xxoo"
+    # Telegram = "xxoo"
+    # Dribbble = "xxoo"
+    # Medium = "xxoo"
